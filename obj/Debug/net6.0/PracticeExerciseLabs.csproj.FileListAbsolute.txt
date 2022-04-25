@@ -1,0 +1,15 @@
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\bin\Debug\net6.0\PracticeExerciseLabs.exe
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\bin\Debug\net6.0\PracticeExerciseLabs.deps.json
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\bin\Debug\net6.0\PracticeExerciseLabs.runtimeconfig.json
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\bin\Debug\net6.0\PracticeExerciseLabs.dll
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\bin\Debug\net6.0\PracticeExerciseLabs.pdb
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\obj\Debug\net6.0\PracticeExerciseLabs.csproj.AssemblyReference.cache
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\obj\Debug\net6.0\PracticeExerciseLabs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\obj\Debug\net6.0\PracticeExerciseLabs.AssemblyInfoInputs.cache
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\obj\Debug\net6.0\PracticeExerciseLabs.AssemblyInfo.cs
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\obj\Debug\net6.0\PracticeExerciseLabs.csproj.CoreCompileInputs.cache
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\obj\Debug\net6.0\PracticeExerciseLabs.dll
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\obj\Debug\net6.0\refint\PracticeExerciseLabs.dll
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\obj\Debug\net6.0\PracticeExerciseLabs.pdb
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\obj\Debug\net6.0\PracticeExerciseLabs.genruntimeconfig.cache
+C:\Users\asiam\OneDrive\Desktop\practice\PracticeExerciseLabs\PracticeExerciseLabs\PracticeExerciseLabs\obj\Debug\net6.0\ref\PracticeExerciseLabs.dll
