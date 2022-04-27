@@ -2,21 +2,134 @@
 {
     public static void Main()
     {
-        ExericiseOneStringInput();
-        ExerciseTwoIntegerInput();
-        ExerciseThreeIntegerInput();
-        ExerciseFourAddTwoIntgers();
-        ExerciseFiveMultipyTwoIntegers();
-        ExerciseSixDoWhileLoopContinueYorN();
-        ExerciseSevenKindOfLikeExerciseSix();
-        ExerciseEightIsExereciseTwoToThreeInALoop();
-        ExerciseNineSwitchStatement();
+        //ExericiseOneStringInput();
+        //ExerciseTwoIntegerInput();
+        //ExerciseThreeIntegerInput();
+        //ExerciseFourAddTwoIntgers();
+        //ExerciseFiveMultipyTwoIntegers();
+        //ExerciseSixDoWhileLoopContinueYorN();
+        //ExerciseSevenKindOfLikeExerciseSix();
+        //ExerciseEightIsExereciseTwoToThreeInALoop();
+        //ExerciseNineSwitchStatement();
+        //ExerciseTen();
+        //ExerciseEleven();
 
+        ExerciseTwelve();
+    }
 
+    private static void ExerciseTwelve()
+    {
+        //EXERCISE 12
+        //Output all the numbers from 9 to 0. Use a for loop to output all the numbers from 9 to 0.
+        bool continueQuestion = true;
+        while (continueQuestion)
+        {
+            List<int> numbers = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            List<int> reverse = Enumerable.Reverse(numbers).ToList();
 
+            Console.WriteLine(String.Join(',', reverse));
+            // Console.WriteLine($"Numbers: {numbers[i]}");
+            Console.WriteLine("Would you like to try again? y/n");
+            string continueResponse = Console.ReadLine().ToLower();
+            if (continueResponse == "yes" || continueResponse == "y")
+            {
+                continueQuestion = true;
+                Console.WriteLine();
+                continue;
+            }
+            else if (continueResponse == "no" || continueResponse == "n")
+            {
+                continueQuestion = false;
+                Console.WriteLine("Ok, Bye!");
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Sorry input was not valid. Please try again later. Goodbye!");
+                continueQuestion = false;
+                break;
+            }
+        }
+    }
 
+    private static void ExerciseEleven()
+    {
+        //EXERCISE 11
+        //Use a for loop to output all the numbers from 0 to 9.
+        bool continueQuestion = true;
+        while (continueQuestion)
+        {
+           // List<int> list = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
+            int[] numbers = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Console.WriteLine($"Numbers: {numbers[i]}");
+            }
+            Console.WriteLine("Would you like to try again? y/n");
+            string continueResponse = Console.ReadLine().ToLower();
+            if (continueResponse == "yes" || continueResponse == "y")
+            {
+                continueQuestion = true;
+                Console.WriteLine();
+                continue;
+            }
+            else if (continueResponse == "no" || continueResponse == "n")
+            {
+                continueQuestion = false;
+                Console.WriteLine("Ok, Bye!");
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Sorry input was not valid. Please try again later. Goodbye!");
+                continueQuestion = false;
+                break;
+            }
+        }
+    }
 
+    private static void ExerciseTen()
+    {
+        //EXERCISE 10
+        bool continueQuestion = true;
+        while (continueQuestion)
+        {
+
+            Console.WriteLine("Enter your height in inches: ");
+            decimal inputInches = decimal.Parse(Console.ReadLine());
+            decimal theDifference = Math.Round(54 - inputInches);
+
+            if (inputInches >= 54)
+            {
+                Console.WriteLine("Great, you can ride the Raptor!");
+            }
+            else
+            {
+                Console.WriteLine($"Sorry, you cannot ride the Raptor. You need to be taller by {theDifference} more inches.");
+            }
+            Console.WriteLine("Would you like to try again? y/n");
+            string continueResponse = Console.ReadLine().ToLower();
+            if (continueResponse == "yes" || continueResponse == "y")
+            {
+                continueQuestion = true;
+                Console.WriteLine();
+                Console.WriteLine("Ok Good!");
+                continue;
+            }
+            else if (continueResponse == "no" || continueResponse == "n")
+            {
+                continueQuestion = false;
+                Console.WriteLine("Ok, Bye!");
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Sorry input was not valid. Please try again later. Goodbye!");
+                continueQuestion = false;
+                break;
+            }
+        }
     }
 
     private static void ExerciseNineSwitchStatement()
@@ -65,7 +178,7 @@
         } while (shouldContinue);
     }
     private static void ExerciseEightIsExereciseTwoToThreeInALoop()
-    {  
+    {
         //Make exercises 2 - 5 run in a loop. Use a do -while loop to run the code in a loop. 
         //Each time you run the code ask the user whether they would like to continue.
         bool shouldContinue;
@@ -212,35 +325,11 @@
 
 
 
-//EXERCISE 10
-
-//Description
-//Determine whether the user is tall enough to ride a roller coaster. Prompt the user to enter her height in inches.  If she is less than 54 inches tall, notify her that she cannot ride the Raptor. If she is at least 54 inches tall, notify her that she can ride the Raptor.
-
-//Example
-//>>Enter your height in inches: 52.3
-//>> Sorry, you cannot ride the Raptor. You need 1.7 more inches.
-//Would you like to continue (y/n)? << y
-//>> Enter your height in inches: 55.9
-// >> Great, you can ride the Raptor!
-//Would you like to continue (y/n)? << n
-//>> Goodbye!
 
 
 
-//EXERCISE 11
 
-//Description
-//Use a for loop to output all the numbers from 0 to 9.
 
-//Example
-//>>0 1 2 3 4 5 6 7 8 9
-//Would you like to continue (y/n)? << y
-//>> 0 1 2 3 4 5 6 7 8 9
-//Would you like to continue (y/n)? << y
-//>> 0 1 2 3 4 5 6 7 8 9
-//Would you like to continue (y/n)? << n
-//>> Goodbye!
 
 
 
